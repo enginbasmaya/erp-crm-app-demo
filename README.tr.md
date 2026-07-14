@@ -107,52 +107,13 @@ erp-crm-app/
 
 ---
 
-## ⚡ Hızlı Kurulum (Quick Start)
+## 🔒 Kaynak Kod & Kurumsal Lisanslama
 
-Yerel makinenizde projemizi saniyeler içinde ayağa kaldırmak için aşağıdaki adımları takip edin:
+Bu depo (`Showcase Repository`), kurumsal **ERP & CRM Yönetim Platformumuzun** mimari yapısını, teknoloji yığınını ve canlı demo özelliklerini tanıtmak amacıyla oluşturulmuş halka açık vitrin reposudur.
 
-### 1. Gereksinimler
-* **PHP:** >= 8.2 (Composer yüklü olmalı)
-* **Node.js:** >= 20.x (npm veya pnpm yüklü olmalı)
-
-### 2. Projeyi Klonlayın ve Bağımlılıkları Yükleyin
-```bash
-git clone https://github.com/enginbasmaya/erp-crm-app.git
-cd erp-crm-app
-
-# PHP bağımlılıklarını kurun
-composer install
-
-# Node.js (React/TypeScript) bağımlılıklarını kurun
-npm install
-```
-
-### 3. Çevre Değişkenleri ve Veritabanı Kurulumu
-```bash
-# .env dosyasını oluşturun
-cp .env.example .env
-
-# Laravel uygulama anahtarını üretin
-php artisan key:generate
-
-# Veritabanı tablolarını ve demo seeder verilerini oluşturun
-php artisan migrate --seed
-```
-
-### 4. Uygulamayı Çalıştırın (Geliştirme Modu)
-Terminalinizde iki ayrı sekme açarak sunucuları başlatın:
-
-**Terminal 1 (Laravel Sunucusu):**
-```bash
-php artisan serve
-```
-
-**Terminal 2 (Vite / React Hızlı Yenileme Sunucusu):**
-```bash
-npm run dev
-```
-
-Tarayıcınızda `http://127.0.0.1:8000` adresine giderek **Kurumsal ERP & CRM Yönetim Paneline** anında giriş yapabilirsiniz! 🎉
+* **Kapalı Kaynak Güvencesi:** Ticari fikri mülkiyet haklarını ve kurumsal lisanslama standartlarını korumak amacıyla, sistemin arka plan (`Laravel 13`) ve ön yüz (`React 19 / TypeScript`) kaynak kodları yalnızca üst düzey güvenlikli özel (**Private**) depolarda tutulmaktadır.
+* **Canlı Demo Deneyimi:** Sistemin sunduğu şimşek hızındaki Tek Sayfa Uygulaması (SPA) performansını ve tüm kurumsal modüllerini hemen şimdi yukarıdaki **Canlı Demo Adresi** üzerinden (`https://erp-crm-demo.enginbasmaya.com.tr/login`) inceleyebilirsiniz.
+* **Lisanslama ve Kod Erişim Talepleri:** Kurumsal sunucu kurulumu, beyaz etiket (`white-label`) lisanslama veya özel kod inceleme talepleriniz için lütfen profesyonel iletişim kanalları üzerinden bağlantıya geçiniz.
 
 ---
 

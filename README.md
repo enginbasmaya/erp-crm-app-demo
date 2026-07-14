@@ -107,52 +107,13 @@ erp-crm-app/
 
 ---
 
-## ⚡ Quick Start
+## 🔒 Source Code & Enterprise Licensing
 
-Get the application running on your local machine in seconds:
+This repository (`Showcase Repository`) serves as a comprehensive architectural preview and live presentation of our proprietary **Enterprise ERP & CRM Platform**.
 
-### 1. Requirements
-* **PHP:** >= 8.2 (Composer installed)
-* **Node.js:** >= 20.x (npm or pnpm installed)
-
-### 2. Clone & Install Dependencies
-```bash
-git clone https://github.com/enginbasmaya/erp-crm-app.git
-cd erp-crm-app
-
-# Install PHP backend dependencies
-composer install
-
-# Install Node.js frontend dependencies
-npm install
-```
-
-### 3. Environment & Database Setup
-```bash
-# Create environment configuration file
-cp .env.example .env
-
-# Generate Laravel application encryption key
-php artisan key:generate
-
-# Run database migrations and seed initial demo data
-php artisan migrate --seed
-```
-
-### 4. Run Development Servers
-Open two terminal tabs and launch both local servers simultaneously:
-
-**Terminal 1 (Laravel Backend Server):**
-```bash
-php artisan serve
-```
-
-**Terminal 2 (Vite / React Hot-Reload Server):**
-```bash
-npm run dev
-```
-
-Visit `http://127.0.0.1:8000` in your browser to instantly access the **Enterprise ERP & CRM Management Panel**! 🎉
+* **Private Source Code Guarantee:** To safeguard enterprise intellectual property and maintain commercial licensing standards, the core backend (`Laravel 13`) and frontend (`React 19 / TypeScript`) source code reside exclusively in private, highly-secured repositories.
+* **Live Interactive Demo:** You can thoroughly evaluate and experience the lightning-fast Single Page Application (SPA) performance right now using our **Live Demo URL above** (`https://erp-crm-demo.enginbasmaya.com.tr/login`).
+* **Licensing & Developer Access:** For enterprise deployment, white-label licensing, or private code inspection requests, please reach out via professional contact channels.
 
 ---
 
